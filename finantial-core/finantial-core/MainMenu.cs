@@ -13,7 +13,7 @@ namespace finantial_core
 
             int option = 0;
 
-            do {
+            do {                
                 
                 Console.WriteLine("BEM-VINDO");
                 Console.WriteLine("O aplicativo para controlar suas finanças!");
