@@ -6,6 +6,7 @@
     <RootNamespace>finantial_core</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <BaseOutputPath>C:\Users\nando\Desktop\Code\C#\finantial-core\bin</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
