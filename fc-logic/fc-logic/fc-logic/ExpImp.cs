@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fc_logic.ExpImp
+namespace fc_logic
 {
     public class ExpImp
     {

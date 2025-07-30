@@ -2,10 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <RootNamespace>fc_logic</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <BaseOutputPath>C:\Users\nando\Desktop\Code\C#\finantial-core\bin\Debug\net9.0</BaseOutputPath>
+    <BaseOutputPath>../../bin</BaseOutputPath>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
   </PropertyGroup>
 
@@ -18,12 +17,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="DalBaseConnections">
-      <HintPath>..\..\..\bin\Debug\net9.0\DalBaseConnections.dll</HintPath>
-    </Reference>
-    <Reference Include="Gastos">
-      <HintPath>..\..\..\bin\Debug\net9.0\Gastos.dll</HintPath>
-    </Reference>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.0" />
   </ItemGroup>
 
 </Project>
