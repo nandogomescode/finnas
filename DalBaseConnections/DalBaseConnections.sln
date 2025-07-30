@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalBaseConnections", "DalBaseConnections\DalBaseConnections.csproj", "{1CB9FE85-C9E3-4406-ACFD-38643316109F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB9FE85-C9E3-4406-ACFD-38643316109F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB9FE85-C9E3-4406-ACFD-38643316109F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB9FE85-C9E3-4406-ACFD-38643316109F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB9FE85-C9E3-4406-ACFD-38643316109F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AE75C05-7F47-4439-89BC-5A69276A3007}
+	EndGlobalSection
+EndGlobal

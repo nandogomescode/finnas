@@ -3,7 +3,7 @@ using Gastos.GastosMensais;
 using Gastos.GastoUnico;
 using Gastos.Salario;
 
-namespace fc_logic.Gastos
+namespace fc_logic
 {
     public class Gastos
     {
@@ -20,11 +20,7 @@ namespace fc_logic.Gastos
 
         #region CONSTRUCTOR
         public Gastos()
-        {
-
-
-
-        }
+        { }
         #endregion CONSTRUCTOR
 
         public void GastosMain()
@@ -49,8 +45,6 @@ namespace fc_logic.Gastos
 
         private void GastosOptions(int option)
         {
-
-
 
             switch(option)
             {

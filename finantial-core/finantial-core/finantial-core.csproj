@@ -5,13 +5,19 @@
     <TargetFramework>net9.0</TargetFramework>
     <RootNamespace>finantial_core</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>annotations</Nullable>
     <BaseOutputPath>C:\Users\nando\Desktop\Code\C#\finantial-core\bin</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="DalBaseConnections">
+      <HintPath>..\..\bin\Debug\net9.0\DalBaseConnections.dll</HintPath>
+    </Reference>
     <Reference Include="fc-logic">
-      <HintPath>..\..\fc-logic\fc-logic\fc-logic\bin\Debug\net9.0\fc-logic.dll</HintPath>
+      <HintPath>..\..\bin\Debug\net9.0\Debug\net9.0\fc-logic.dll</HintPath>
+    </Reference>
+    <Reference Include="Gastos">
+      <HintPath>..\..\bin\Debug\net9.0\Gastos.dll</HintPath>
     </Reference>
   </ItemGroup>
 

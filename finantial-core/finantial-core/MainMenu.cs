@@ -1,8 +1,4 @@
-﻿using fc_logic.ExpImp;
-using fc_logic.Gastos;
-using fc_logic.Investimentos;
-using fc_logic.Relatorios;
-using fc_logic.Rendimentos;
+﻿using fc_logic;
 
 namespace finantial_core
 {
@@ -27,7 +23,7 @@ namespace finantial_core
 
                 Console.Write("\nEscolha sua opção: ");
 
-                Option(option);
+                this.Option(option);
 
                 option = Convert.ToInt32(Console.ReadLine());
 
@@ -39,14 +35,14 @@ namespace finantial_core
 
         }
 
-        public void Option(int option) 
+        private void Option(int option) 
         {
 
-            Gastos gastos_obj = new Gastos();
-            Rendimentos rendimentos_obj = new Rendimentos();
-            Investimentos investimenots_obj = new Investimentos();
-            Relatorios relatorios_obj = new Relatorios();
-            ExpImp expImp_main = new ExpImp();
+            var gastos_obj = new Gastos();
+            var rendimentos_obj = new Rendimentos();
+            var investimenots_obj = new Investimentos();
+            var relatorios_obj = new Relatorios();
+            var expImp_main = new ExpImp();
 
             switch(option) 
             {
@@ -68,8 +64,6 @@ namespace finantial_core
                     break;
 
             }
-
-
         }
 
     }
